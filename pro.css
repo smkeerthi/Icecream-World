@@ -1,0 +1,154 @@
+
+.body{
+    margin:0;
+    height:100vh;
+    background-image:url('https://img.freepik.com/premium-photo/melt-ice-cream-black-background-copyspace_1309778-49132.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    font-family:Arial, sans-serif;
+}
+marquee{
+    font-size:30px;
+    color:#ebbdbd;
+    background-color:#391515;
+    anianimation:marquee 5s linear infinite;
+}
+h1{
+    
+    font-family:Kristen ITC;
+    font-size:100px; 
+    padding-top:2%;
+    text-align:left;
+    color:rgb(214, 163, 163);
+}
+#c1{
+    padding-left: 4%;
+}
+button{
+            padding:12px 25px;
+            border:none;
+            border-radius:25px;
+            background:pink;
+            color:black;
+            font-size:18px;
+            cursor:pointer;
+}
+
+button:hover{
+            background:white;
+}
+#c2{
+            display:grid;
+            grid-template-columns:repeat(3,1fr);
+            gap:20px;
+            padding:20px;
+
+}
+.abody{
+     margin:0;
+    height:100vh;
+    background-image:url('https://img.freepik.com/premium-photo/sleek-dark-ice-cream-cone-featuring-glossy-black-ice-cream-set-against-textured-black-background-perfect-dessert-themes_995663-19105.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    font-family:Arial, sans-serif;
+}
+.cbody{
+     margin:0;
+    height:100vh;
+    background-image:url('https://st3.depositphotos.com/13349494/37172/i/450/depositphotos_371727948-stock-photo-fresh-delicious-chocolate-ice-cream.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    font-family:Arial, sans-serif;
+}
+#agrid{
+    display:flex;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    padding:20px;
+}
+.mbody{
+     margin: 0;
+            font-family: Arial, sans-serif;
+
+            background-image: url('https://img.freepik.com/free-photo/fresh-chocolate-dessert-indulgence-close-up-generated-by-ai_188544-30488.jpg?semt=ais_rp_50_assets&w=740&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            color: white;
+}
+.heading {
+            padding: 20px;
+        }
+
+        .heading h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .heading p {
+            width: 80%;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: justify;
+            color: blanchedalmond;
+        }
+
+        /* Grid Layout */
+        .mgrid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+
+            padding: 40px;
+        }
+
+        /* Card Design */
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 20px;
+
+            text-align: center;
+
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+
+            border-radius: 15px;
+        }
+
+        .card p {
+            font-size: 24px;
+            margin: 15px 0;
+        }
+
+        /* Buttons */
+        .card button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+
+            background-color: pink;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: white;
+        }
